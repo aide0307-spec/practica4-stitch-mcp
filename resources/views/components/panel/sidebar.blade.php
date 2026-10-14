@@ -5,10 +5,10 @@
     $sections = [
         'TENANT MANAGEMENT' => [
             ['key' => 'suscriptores', 'icon' => 'domain', 'label' => 'Suscriptores Directory', 'href' => route('suscriptores')],
-            ['key' => 'tenant-provisioning', 'icon' => 'add_business', 'label' => 'Tenant Provisioning', 'href' => '#'],
+            ['key' => 'registro', 'icon' => 'add_business', 'label' => 'Tenant Provisioning', 'href' => route('registro')],
         ],
         'WORKFORCE & OPERATIONS' => [
-            ['key' => 'employee-roster', 'icon' => 'badge', 'label' => 'Employee Roster', 'href' => '#'],
+            ['key' => 'perfil', 'icon' => 'badge', 'label' => 'Employee Roster', 'href' => route('perfil')],
             ['key' => 'driver-fleet-units', 'icon' => 'local_shipping', 'label' => 'Driver & Fleet Units', 'href' => '#'],
             ['key' => 'role-permissions', 'icon' => 'admin_panel_settings', 'label' => 'Role Permissions', 'href' => '#'],
         ],
