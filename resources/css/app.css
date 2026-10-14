@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --color-brand: #0284c7;
+
+    --color-primary-fixed: #cce5ff;
+    --color-primary-fixed-dim: #93ccff;
+    --color-primary: #006194;
+    --color-primary-container: #007bb9;
+    --color-on-primary: #ffffff;
+    --color-on-primary-container: #fdfcff;
+    --color-on-primary-fixed: #001d31;
+    --color-on-primary-fixed-variant: #004b73;
+    --color-inverse-primary: #93ccff;
+
+    --color-secondary: #565e74;
+    --color-secondary-fixed: #dae2fd;
+    --color-secondary-fixed-dim: #bec6e0;
+    --color-secondary-container: #dae2fd;
+    --color-on-secondary: #ffffff;
+    --color-on-secondary-container: #5c647a;
+    --color-on-secondary-fixed: #131b2e;
+    --color-on-secondary-fixed-variant: #3f465c;
+
+    --color-tertiary: #006947;
+    --color-tertiary-container: #00855b;
+    --color-tertiary-fixed: #6ffbbe;
+    --color-tertiary-fixed-dim: #4edea3;
+    --color-on-tertiary: #ffffff;
+    --color-on-tertiary-container: #f5fff6;
+    --color-on-tertiary-fixed: #002113;
+    --color-on-tertiary-fixed-variant: #005236;
+
+    --color-error: #ba1a1a;
+    --color-error-container: #ffdad6;
+    --color-on-error: #ffffff;
+    --color-on-error-container: #93000a;
+
+    --color-background: #f8f9ff;
+    --color-on-background: #0b1c30;
+    --color-surface: #f8f9ff;
+    --color-surface-variant: #d3e4fe;
+    --color-surface-dim: #cbdbf5;
+    --color-surface-bright: #f8f9ff;
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #eff4ff;
+    --color-surface-container: #e5eeff;
+    --color-surface-container-high: #dce9ff;
+    --color-surface-container-highest: #d3e4fe;
+    --color-on-surface: #0b1c30;
+    --color-on-surface-variant: #3f4850;
+    --color-inverse-surface: #213145;
+    --color-inverse-on-surface: #eaf1ff;
+    --color-surface-tint: #006398;
+    --color-outline: #707881;
+    --color-outline-variant: #bfc7d2;
+
+    --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-headline: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-label: 'JetBrains Mono', ui-monospace, monospace;
+}
