@@ -7,3 +7,5 @@ Route::get('/', function () {
 });
 
 Route::view('/dashboard', 'dashboard')->name('dashboard');
+
+Route::view('/suscriptores', 'suscriptores')->name('suscriptores');
